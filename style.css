@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    background-color: slategray;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    color: orange;
+    text-shadow: 0 0 24px rgba(0, 0, 0, 1);
+}
+
+/*** 
+  Start Button
+             ***/
+
+#start-el {
+    padding: 10px 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: bisque;
+}
+
+#start-el:hover {
+    font-size: 20px;
+    background-color: rgb(228, 185, 132);
+}
+
+/*** 
+  Game Screen 
+            ***/
+
+#container {
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 40px;
+    width: 600px;
+    height: 500px;
+    border: solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/nauto.png);
+    background-size: cover;
+}
+
+
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    display: none;
+    /* text-shadow:
+    0.05em 0 black,
+    0 0.05em black,
+    -0.05em 0 black,
+    0 -0.05em black,
+    -0.05em -0.05em black,
+    -0.05em 0.05em black,
+    0.05em -0.05em black,
+    0.05em 0.05em black; */
+    text-shadow:
+    0.07em 0 black,
+    0 0.07em black,
+    -0.07em 0 black,
+    0 -0.07em black;
+}
+
+.answer-el {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px 20px;
+    width: 350px;
+    height: 50px;
+    margin: 10px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    display: none;
+    color: rgb(255, 255, 255);
+    text-shadow:
+    0.07em 0 black,
+    0 0.07em black,
+    -0.07em 0 black,
+    0 -0.07em black;
+}
+
+.answer-el:hover {
+    box-shadow: 0 0 20px rgba(0,0,0,.5);
+    font-size: 27px;
+}
